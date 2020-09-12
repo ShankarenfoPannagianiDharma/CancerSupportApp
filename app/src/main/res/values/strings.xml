@@ -1,0 +1,329 @@
+<resources>
+    //app's name (usually used in actionbar/topbar)
+    <string name="app_name">CancerMonitorApp</string>
+
+    <!-- Contents of textviews in infodumps in patient_infos -->
+    <string name="InfoGeneralContent">
+        "These general information that you may or may not follow, in regards with cancer.
+        It is advised that you search for yourself about cancer- to make an effort to learn about it yourself.
+
+        When talking about the causes of cancer, the term 'risk factor' may have come up several times. As scientists and doctors are still unable to determine the true cause of cancers, they are able to define some sources that may increase the likelihood of cancer to occur. These factors are not a cause on their own, but together they compound the chances of cancer.
+        As you might know, one of the most risk factor for cancer is cigarette smoke. Cigarettes contain many chemicals in its composition that harms the body, especially if taken frequently. Avoiding cigarettes should be prioritized, no matter the type of cancer you are faced with. Avoiding cigarettes in general should be conducive to your health regardless of cancer.
+        It is also advised to avoid rancid or rank odor- that usually means there are some particles in the air that may aggravate or cause more damage to you. After all, there is a reason we developed the sense of smell.
+
+        There are many categories and types of cancer, each of them unique and different in their shape, form or method. Hence, communicating with your specialist about your specific type of ailment is important. Get the general idea about what you are experiencing, then try to understand what it does to you. There are some types that are painful but ultimately harmless, and some that are purely fatal. Do not jump to conclusions, take it step-by-step and calmly.
+        You might have come to the realisation that the cancer you are afflicted with are potentially fatal. If so, keep calm and do NOT panic. Refrain from focusing on your chances of survival, focus on the procedures that you need to commit to have a better chance of survival. Medical resources are growing, and following the doctor's advice and protocol can support your survival.
+
+        Cancer is caused by cells in your body developing an uncontrolled growth, which commonly creates tumors in your organs. What makes cancer difficult to treat is their spread and rate of growth. Cancerous cells can invade other organs- this means that doctors have to identify the identity of the tumor itself, since it is entirely possible for a tumor in the liver to be caused by lung cancer. The growth is caused by the cells refusing to die naturally- it simply keeps multiplying.
+        These uncontrolled growth, in turn, is caused by mutation in the cells. We still have yet to understand the exact nature of these mutations, but we can infer some factors that may affect its cause, like toxins in smoke or specific chemicals.
+        What makes cancer vary and have many categories is that it can originate from any part of the body- and any part of your body is made of many different cells with different structures- and any of this cells can develop to be cancerous.
+        Terms to describe these include Malignant- to describe harmful cells, which can be the cancer as a whole or the tumor itself. The spreading of cancer is scientifically referred to as Metastasize. You might have heard these terms.
+
+        Treatment for cancer vary wildly. Cancer cases are almost specific by case, since it is affected by a person's own health condition, diet, living condition and sometimes genetics. Therefore, the treatment options available to you also vary just as wildly. Most treatments include multiple methods used in conjunction with each other, so it is possible for you to be prescribed with two or more therapies at the same time.
+        Communicate with your doctor or specialist about the options available to you. Understand what each treatment entails and how much it would affect yourself. Think if any of these treatments may feel invasive to you. Think about what you're willing to go through, and ask about what, if any, side effects may follow after treatment.
+
+        If you have experienced cancer before, it is entirely possible to be afflicted with cancer again. As stated before, the variety of cancer means that a variant of cancer that originates from a completely different organ may affect you sometime after. This is called second cancer.
+        It is also possible for the same cancer to occur again after treatment- this is called recurrence.
+
+        Being a victim of cancer does not mean that you are weaker than a respected member of society or a failure of a person. Cellular mutation can occur randomly, and it can occur to anyone. The source of your ailment can originate from an ancestor long past, or it may have come from some forgotten incident in your life. This does not mean that you are at fault or responsible for your current state of being.
+        If you are plagued with worry or fear, talk to your specialist/doctor, or search the internet about your ailment. Knowing more about your illness will help your nerves.
+        While we have limited knowledge on treating cancer, at this age, medical knowledge grows rapidly. The possibility of finding a better treatment is always on the horizon."
+        Sometimes cancer can affect an anatomical region which are not discussed in open conversation. This can be difficult to talk with, and it can be embarassing to talk about. This is natural. Cancer does not care for propriety and can affect organs that are private to you. Unfortunately, you will have to talk about it, at least to your specialist. What matters is recovering from it.
+    </string>
+
+    <string name="InfoLungCancerTitle">Lung Cancer</string>
+    <string name="InfoLungCancerContent">
+        "Lung Cancer is among the most well-known variant of cancer, reputed for its lethality and frequency.
+
+        Lungs are a pair of organs that is central for a person to live, allowing a person to breathe. As such, symptoms of lung cancer causes victims to constantly cough- in later stages coughing blood or spit, chest pains, breathing problems, tiredness and many others.
+
+        Cases of lung cancer are commonly caused by inhalation of cigarette smoke- directly or indirectly. Avoiding cigarette smoke inhalation is very important to prevent lung cancer development. Other smokes, like pipe and cigar, are also capable of causing lung cancer, although not as efficient as cigarettes.
+
+        Another cause of lung cancer is exposure to asbestos, a material that was once very popular for its versatility. Asbestos has been banned in many countries due to its harmful side-effects, and in other countries it is tightly regulated.
+        Lung cancer can also occur with exposure to radon gas, an invisible and odorless radioactive gas that can travel through drainage pipes, building foundations and many more. Radon can contaminate your home, but simple test kits can detect the presence of this gas.
+        Exposure to black smoke like motor exhausts and polluted air should be avoided as best as you can.
+
+        Lung cancers have two types, differentiated by their cell structure: small cells (SCLC) and non-small cells (NSCLC). They spread and function differently, so distinction between the two are important. SCLC occur 1/5ths of lung cancer cases, and is the most aggressive and rapid of the two. NSCLC are more common, and can be further categorised based on the cells its tumors cause. Note that types other than SCLC or NSCLC can occur, but are very rare.
+
+        Treatment of lung cancer usually involve surgery, chemotherapy, radiaton therapy or any combination thereof. The decision involving which treatment to peruse or utilize depends on a case-by-case basis, factored by the patient's location and extent of the tumor, as well as current health condition.
+
+        Therapy can be prescribed to help cure the cancer or alleviate the sufferer's pain. Multiple threapies can be given to the victim.
+
+        Sources:
+        https://www.cancer.gov/types/lung
+        http://www.medicinenet.com/lung_cancer/article.htm"
+    </string>
+
+    <string name="InfoBladderCancerTitle">Bladder Cancer</string>
+    <string name="InfoBladderCancerContent">
+        "Bladder Cancer is characterised by blood in urine- which can be visible or microscopic, pain while urinating, increased frequency in the need to urinate, as well as an onset of urinary tract infections. Bladder refers to the organ in the pelvis that collect urine- waste liquid from the kidneys- before disposing it trough urinating.
+
+        Smoking is a major factor for causing bladder cancer. Avoid inhaling smoke from smoking cigarettes or breathing cigarette vapor. Certain chemicals used in industries and manufactories called 'aromatic amines' can cause these kinds of cancer. These chemicals are often used in making dyes, and can be found in producers of rubber, leather, textiles, paint and printing industries. Using these products may also factor. Diesel fumes, used in trucks, can affect you too.
+
+        Several types of cancer originate in the bladder, but Urothelial carcinoma or transitional cell carcinoma are by far the most common type to occur. Other cancer types can occur, but this type is the most common.\n\n
+
+        Treatment options for bladder cancer are surgeries, intravesical therapy, chemotherapy, radiation therapy and immunotherapy. Depending on your health and the stage of the cancer, it might involve multiple treatment options.
+
+        Sources:
+        http://www.emedicinehealth.com/bladder_cancer/article_em.htm
+        https://www.cancer.org/cancer/bladder-cancer/about/what-is-bladder-cancer.html"
+    </string>
+
+    <string name="InfoLymphomaTitle">Lymphoma</string>
+    <string name="InfoLymphomaContent">
+        "Lymphoma is a cancer that originates in the lymph system of the body. The lymph system is a part of the greater immune system, and as such, Lymphoma can occur almost anywhere. More specifically, it originates from a white blood cell- lymphocytes.
+        Lymphoma can occur at a young age, and is usually treatable- most victims can survive this cancer.
+        Signs of lymphoma is most visibly of swelling in the lymph nodes- which are found on your entire body.
+
+        When a lymphocyte mutates- its genetics change- this causes lymphoma. Unfortunately, scientists still has not identified what is the exact triggers for this change.
+        Common global causes for cancer- such as smoking, obesity and such are accepted as a factor, but is usually not the entire cause of Lymphoma.
+
+        Lymphoma is further categorised by the specific lympathic cells that are affected- and can be sorted as Hodkin's or non-Hodkin's.
+        As stated previously, Hodkin's Lymphoma can occur at any age and can be cured. Hodkin's Lymphoma occurs when a specific cell called the Reed-Sternberg cell is seen under a microscope.
+        Non-Hodkin's Lymphoma occurs when that cell is not found. These kinds are dealt with on case-by-case basis and its treatment varies.
+
+        Treatment for lymphoma varies widely due to the wide variety of development- it's genetic disposition, the type, size of tumors (if any), body parts, as well as your own current state of being.
+        Treatments may take the form of surveillance, drugs, radiotherapy or chemotherapy, but there are a lot of possibilities. Some do not need treatment at all.
+
+        Sources:
+        https://www.cancer.gov/types/lymphoma
+        http://www.medicalnewstoday.com/articles/146136.php"
+    </string>
+
+    <string name="InfoColorectalTitle">Colorectal Cancer</string>
+    <string name="InfoColorectalContent">
+        "Colorectal cancer originates in the colon or rectum. The colon and rectum are the lower parts of the large intestine,
+        Colorectal cancer may cause rectal bleeding, diarrhea, constipation, belly pain, etc.
+
+        Colorectal cancer have several risk factors- these include obesity, physical inactivity, meaty diet, smoking, alcohol and such factor in the chances of colorectal cancer.
+
+        Colorectal cancer usually begin as a small growth called a 'polyp' in either the colon or rectum. Some of these polyps grow into tumors, which are what we directly refer to colorectal cancer.
+        Removal of these polyps help in treating cancer- either by surgical means or other therapies.
+
+        As stated earlier, treatment of colorectal cancer may involve surgically removing cancerous masses, but depending on your health status, your specialist may provide you with other alternatives, like chemotherapy.
+
+        Sources:
+        https://www.cancer.org/cancer/colon-rectal-cancer
+        https://www.cancer.gov/types/colorectal"
+    </string>
+
+    <string name="InfoSkinCancerTitle">Skin Cancer</string>
+    <string name="InfoSkinCancerContent">
+        "Skin cancer, as you can infer from it's name affect the skin. The skin itself is made of many layers, and sking cancer can differ based on the layers it originated from.
+        Skin cancer cause either unusual growths on your skin or soreness that refuse to leave is indicative of one. Pale patches of skin or scar-like lumps may also cause from skin cancer.
+
+        Too much sunlight to your skin may cause skin cancer. To be precise ultraviolet lights (UV lights) are the source- and UV lights can be found in the sun, as well as tanning beds.
+        However, there are still other risk factors like exposure to harmful chemicals or an independent skin condition, so sunlight is not it's sole cause, and skin cancer can happen even without overexposure to UV.
+
+        Skin cancer is divided into two main categories: Melanoma and Non-Melanoma.
+        Non-melanoma, sometimes called squamous or basal skin cancer is more manageable and is usually local and visible to the naked eye,
+        Melanoma skin cancer are more viral than the two, and is very aggressive. Melanoma can also be lethal, so be wary.
+
+        Excision, or surgical removal of the affected skin is usually an option, although you may ask your specialist about the procedure, since skin surgery may cause unintentional scarring or visible scars. There may be different procedures available for you.
+        Radiation treatment can be alternative, but be awawre of the unintentional side effect- radiation has been a risk factor for other cancer types.
+
+        Sources:
+        http://www.mayoclinic.org/diseases-conditions/skin-cancer
+        https://www.cancer.gov/types/skin"
+    </string>
+    <string name="InfoBreastTitle">Breast Cancer</string>
+    <string name="InfoBreastContent">
+        "Breast cancer can affect males and is not exclusive to females. Breast cancer simply means that the cancerous cells originate from your breast tissue- males have less of these in their chest, but they do have them. This is why females encounter breast cancer more than men, but men can be affected too.
+        Breast cancer oftentimes develop as tumors that can be seen via X-ray or felt as a lump. Most of the symptoms caused by breast cancer is usually visible and can be noticed, but be aware that other diseases may also cause the same symptoms.
+
+        As common and widespread breast cancer is, there are some risk factors that scientists have identified, and some that has been debunked- be aware that some risk factors that has been tauted as a cause for breast cancer has been debunked, and due to the nature of breast cancer, there are many false statements around the 'net. It is advised reconfirm your searches and doublecheck with a specialist. Check your sources.
+        Common risk factors like obesity, alcohol consumption and physical activity applies to breast cancer. Specific risk factors would need to be discussed with your specialist.
+
+        Breast cancer can develop as multiple categories. Unfortunately, there are several different types that are unique to itself and categorizing them are difficult, as such, it might be easier to focus on the one you are directly concerned with and discuss with your expert.
+        Searching online for yourself may help greatly, due to the sheer number of variety and structure.
+
+        Most common treatment for breast cancer is a surgical removal of developed tumors. Depending on it's progression and type, it may need other treatments in conjunction. The treatment also needs to factor in your health condition and personal choice too.
+
+        Sources:
+        http://www.breastcancer.org/symptoms/types
+        https://www.cancer.org/cancer/breast-cancer.html
+        https://www.cancer.gov/types/breast
+        http://www.cancerresearchuk.org/about-cancer/breast-cancer"
+    </string>
+
+    <string name="InfoThyroidTitle">Thyroid Cancer</string>
+    <string name="InfoThyroidContent">
+        "The thyroid is an organ at the neck, shaped like a butterfly. It produces hormones that regulate most bodily functions, such as heart rate, digestion and muscle control. Thyroid uses iodine consumed to operate.
+        Thypoid cancer usually manifests as a swelling in the neck- tumors from the cancerous masses, followed with pain in the throat or neck. Difficulty swallowing and breathin is also an effect of this swelling.
+
+        Thypoid cancer has a definitive risk factor with radiation exposure- a rare situation, save for specific medical treatments or catastrophic incidents. Other risk factors cannot be helped- it is either inherent or a side effect of extenuating circumstances.
+        Abnormal iodine intake- either too much or too little- may also trigger this mutation. Iodine can be found in some salts and specific foods.
+
+        Thyroid cancer is split into four categories: papillary, follicular, medullary, and anaplastic.
+        Papillary: Most commonly occuring. Spreads to surrounding lymph nodes, but are generally treatable.
+        Follicular: Second most common. More likely to spread into major organs than to surrounding areas. Somewhat aggressive.
+        Medullary: Spreads to surroundings, but are quite aggressive. Condition can be detected through blood tests.
+        Anaplastic: Very aggresive and spreads to other organs. Very rare occurrences.
+
+        It is possible for Thyroid cancer to recur as second cancer.
+
+        Sources:
+        https://www.cancer.gov/types/thyroid
+        http://www.cancercenter.com/thyroid-cancer
+        http://www.webmd.com/cancer/tc/thyroid-cancer"
+    </string>
+
+    <string name="InfoLeukemiaTitle">Leukemia</string>
+    <string name="InfoLeukemiaContent">
+        "Leukemia is a cancer of the blood cells. More specifically, leukemia occurs when immature blood cells mutate and become cancerous. Immature blood cells are found in the bone marrow where they are produced, and as a result they drown the healthy cells.
+        Leukemia can also occur in other blood-producing tissues or organs. So it is not restricted to bone marrows.
+        Leukemia can cause pain in joints or bones, swollen lymph nodes, fevers, general weakness and tiredness and frequent bleeding and bruising, among other things.
+        Due to the nature of leukemia, secondary illness may develop due to decreased immunity system. The cancerous blood cells become dead weight, unable to be used to defend against various diseases and sicknesses.
+
+        There is not a definitive method to avoid leukimia. As all cancers, general risk factors like smoking should be avoided, but reliable methods have yet to be found.
+
+        This cancer is further divided into two groups: Acute or Chronic. The treatment is different for each type.
+        Acute leukemia grows fast and can be fatal quickly.
+        Chronic leukemia grows steadily worse over time.
+
+        Most leukemia cases are treated through chemotherapy. More difficult cases use radiation therapy or bone marrow transplants.
+
+        Sources:
+        http://www.mayoclinic.org/diseases-conditions/leukemia/basics/definition/con-20024914
+        http://www.medicinenet.com/leukemia/article.htm
+        https://www.cancer.gov/types/leukemia"
+    </string>
+
+    <string name="InfoProstateTitle">Prostate Cancer</string>
+    <string name="InfoProstateContent">
+        "The prostate is a gland contained near the lower large intestine, near the rectum. The prostate is part of the reproductive system and indirectly supports reproduction.
+        Due to anatomical differences, prostate cancer is rare in females. This is because the anatomy of prostate glands in females are different than that of males. As such, prostate cancer occurs mostly in males, but females also have a small possibility of it occuring.
+        Prostate cancer does not showcase any overt, threatening symptoms until later stages. Early prostate cancer are hard to detect and is easily unnoticable.
+        Be aware that untreated prostate cancer may cause death- but there are plenty who have survived prostate cancer.
+
+        Treatment options usually include watch-and-wait, surgery, chemotherapy and radiotherapy, among other therapies.
+
+        Due to the nature of this cancer, it is advised to discuss with your specialist about the details of your specific strain of cancer.
+
+        Sources:
+        http://www.nhs.uk/conditions/Cancer-of-the-prostate/Pages/Introduction.aspx
+        https://www.cancer.gov/types/prostate
+        http://www.medicinenet.com/prostate_cancer/article.htm"
+    </string>
+
+    <string name="InfoKidneyTitle">Kidney Cancer</string>
+    <string name="InfoKidneyContent">
+        "Kidneys refer to the pair of organs that is located on the sides of the spine, above the waist. The kidneys filter waste from blood- this waste then becomes urine. Another function of the kidneys is to make hormones that control blood pressure, as well as control blood production in bone marrows.
+        Kidney cancer is also called Renal Cell Carcinoma (RCC).
+        Commons sypmtoms in RCC include blood in urine, abdominal bulging, back pain and weight loss, among others.
+
+        Smoking and taking certain pain medicines for a long time can increase the risk factor of kidney cancer. Obesity as well as exposure to chemicals like asbestos can also factor in RCC.
+        If you have experienced or is under lymphoma, kidney cancer can also appear- scientists are still unsure of why this is.
+
+        RCC contain multiple subtypes that might impact the treatment you might need. Consult with your doctor to find out the direct details of your specific problem.
+
+        Treatment plans for RCC include cryotherapy or radiofrequency ablation, surgery, medicines and several others.
+
+        Sources:
+        https://www.cancer.gov/types/kidney
+        http://www.kidneycancer.org/knowledge/learn/about-kidney-cancer/
+        http://www.webmd.com/cancer/understanding-kidney-cancer#1"
+    </string>
+
+    <string name="InfoUterineTitle">Uterine Cancer</string>
+    <string name="InfoUterineContent">
+        "Uterine Cancer affects the uterus- an organ that is exclusive to females and is integral to reproduction- It is the organ that develops newborn fetuses.
+        Uterine cancer usually manifests in vaginal bleeding.
+
+        Known risk factors for uterine cancer include side-effect from radiotherapy to the pelvic region, some medications like tamoxifen and sole consumption of estrogen.
+
+        Uterine cancer is divided into two categories, depending in its formation.
+        Endometrial cancer affects the internal regions of the utero. This cancer type can usually be neutralized.
+        Uterine sarcoma is an uncommon form of uterine cancer. It forms in the muscle and tissue that support the uterus, and is more difficult to treat.
+
+        Some common treatments for this cancer include surgery, radiation, hormone therapy and chemotherapy. Consult your doctor for other potential alternatives.
+
+        Sources:
+        http://www.medicinenet.com/uterine_cancer/article.htm
+        https://www.cancer.gov/types/uterine"
+    </string>
+
+    <string name="InfoHnNTitle">Head and Neck Cancer</string>
+    <string name="InfoHnNContent">
+        "Head and neck cancers are a group of separate cancers that occur in the head and neck. The head and upper neck contain many glands and moist surfaces, populated with different cells each have chances of becoming cancerous.
+        Signs of these cancers are pain in specific locations, white patches in gums, unusual bleeding and persistent difficulty in breathing.
+
+        Risk factors of these types of cancers include smoking, alcohol intake and ingestion of harmful chemicals.
+
+        To find the appropriate treatment plans and information, it is best to consult your specialist about the specific type.
+
+        Sources:
+        https://www.cancer.gov/types/head-and-neck"
+    </string>
+
+    <string name="InfoStomachTitle">Stomach Cancer</string>
+    <string name="InfoStomachContent">
+        "Stomach cancer is also frequently referred to as gastric cancer. The stomach refers to the upper abdomen, where food is primarily digested.
+        Most gastric cancer are detected late in its advanced stages, due to not exhibiting obvious tells or symptoms.
+
+        Stomach cancer is associated with an infection of the stomach with a specific bacteria called H. pylori, which causes ulcers. Inflammation in the stomach, as well as growths in stomach also increases the chances of stomach cancer.
+        Common risk factors like smoking and obesity also applies.
+
+        Surgery, chemotherapy and radiation are the three most common treatments for stomach cancer. Other, more specific treatments may also be available, depending on circumstances. Consult your doctor.
+
+        Sources:
+        https://www.cancer.gov/types/stomach
+        http://www.webmd.com/cancer/stomach-gastric-cancer"
+    </string>
+
+    <string name="InfoBrainTitle">Malignant Brain Tumor</string>
+    <string name="InfoBrainContent">
+        "A malignant brain tumor is a cancer that originally affects the brain, but can quickly spread to the spine and other regions of the brain.
+        They are heralded by chronic headaches, seizures and persistent nausea.
+
+        MBTs are categorised into four levels. These levels are classed by their behaviour- how fast they spread and how dangerous they are.
+        Stages 1-2 are called benign and are usually non-cancerous.
+        Stages 3-4 are true malignant brain tumor.
+        MBTs are also categorised by either primary or secondary. Primary tumors originate from the brain while secondary
+
+        Surgery will usually need to be carried out to remove as much of the tumour as possible. This may be followed by radiotherapy and/or chemotherapy to reduce the risk of resurgence.
+
+        Sources:
+        http://www.nhs.uk/conditions/brain-tumour-malignant/Pages/Introduction.aspx"
+    </string>
+
+    <string name="InfoEyeTitle">Eye Cancer</string>
+    <string name="InfoEyeContent">
+        "Eye cancer is a general grouping for cancerous tumors that can occur in the various parts of the eye. The tumors formed in the eye is also called intraocular malignancy.
+        Eye cancer is relatively uncommon among cancer cases.
+        Signs of eye cancer include difficulty with sight, vision problems (such as missing field of vision, light flashes, spots and lines) and iris deformation.
+
+        Eye cancer has multiple risk factors, unfortunately, most of them are inherent and is not related to lifestyle choices. While there are other possible factors, they are unproven as of yet. These include exposure to sunlight and firect brightness to the eye.
+
+        Usually, the cancerous tumors that develop in the eye are caused by a different strain of cancer- a secondary cancer that spread to the eye. Cancer types that originate in the eye include intraocular melanoma and intraocular lymphoma.
+
+        Treatments can include options of surgery, radiation therapy and laser therapy. In the worst case scenario, surgical removal of the eye is an option.
+
+        Sources:
+        http://www.cancer.net/cancer-types/eye-cancer
+        https://www.cancer.org/cancer/eye-cancer/causes-risks-prevention/risk-factors.html
+        https://medlineplus.gov/eyecancer.html#cat93"
+    </string>
+
+    <string name="InfoPancreaticTitle">Pancreatic Cancer</string>
+    <string name="InfoPancreaticContent">
+        "Pancreatic cancer originates from the pancreas. The pancreas itself is situated between the stomach and spine. Pancreas creates enzymes, proteins that help digest food.
+        Pancreatic cancer grows mostly undetected until later stages- thus they are hard to treat. Possible symptoms include weight loss, jaundice, back pain, vomiting or nausea.
+
+        True causes for pancreatic cancers are still unknown, although some risk factors have been identified. These factors include having diabetes, smoking, obesity and meaty diet.
+
+        Pancreatic cancer are divided two ways: as Exocrine tumors or as endocrine tumors.
+        Exocrine tumors are the more common of the two. These cancers start in pancreatic ducts.
+        Endocrine tumors are much rarer, and has the possibility of being fully functional- it can produce hormones, which can potentially disrupt your body.
+        However, some pancreatic cancer defy these categories. In such a case, pay close attention to doctors for suitable information.
+
+        Treatment for pancreatic cancer is largely dependant on the condition of the patient. Common treatments include radiotherapy and chemotherapy, among other things.
+
+        Sources:
+        http://www.cancer.net/cancer-types/pancreatic-cancer
+        http://www.webmd.com/cancer/pancreatic-cancer/"
+    </string>
+\
+
+
+</resources>

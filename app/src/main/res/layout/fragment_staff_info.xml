@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shankarenfo.cancermonitorapp.StaffInfo">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:paddingTop="120dp"
+        style="@style/BasicTheme">
+
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:id="@+id/ib_staff_mugshot"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tb_anonymous"
+            android:padding="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DOCTOR NAME"
+            android:id="@+id/txt_staff_name"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txt_staff_account"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="SPECIALISTIES"
+            android:id="@+id/txt_staff_specialists"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <!-- View of patient's assigned specialist- mugshot, account number, contact number. -->
+    <!-- optional: Contact, mail, message: uses buttons to send popup to confirm -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:paddingTop="120dp"
+        android:background="@drawable/bgp_bluegreypattern">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:id="@+id/iv_doctor_mugshot"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tb_anonymous"
+        android:padding="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NAME OF DOCTOR"
+        android:textSize="12pt"
+        android:id="@+id/txt_doctorname"
+        android:textStyle="bold"
+        android:textColor="@color/light_font"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="012-1293482"
+            android:id="@+id/btn_patientcall"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="someoen@what.co.who"
+            android:id="@+id/txt_patientmail"
+            android:textSize="10pt"
+            android:textColor="@color/light_font"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

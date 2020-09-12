@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shankarenfo.cancermonitorapp.StaffMakeEvent">
+
+    <TextView
+        android:text="*All fields required"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_marginBottom="9dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainbackground"
+        android:padding="16dp">
+
+        <TextView
+            android:text="Event name:"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:id="@+id/txt_addroutinename"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:text="Event Description:"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:id="@+id/textView9" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:inputType="textCapSentences|textMultiLine"
+            android:gravity="top|left"
+            android:scrollHorizontally="false"
+            android:ems="10"
+            android:background="@android:color/white"
+            android:id="@+id/txt_addroutinedesc"
+            android:layout_marginBottom="7dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Set Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_settime"/>
+
+            <TextView
+                android:text="00 : 00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_targettime"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Set Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_setdate"/>
+
+            <TextView
+                android:text="00/00/0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_targetdate"/>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Create Event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_makeroutine" />
+
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel" />
+
+    </LinearLayout>
+
+</FrameLayout>

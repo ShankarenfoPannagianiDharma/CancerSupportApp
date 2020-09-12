@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file states the directories that can be shared with. -->
+<paths>
+    <!-- file path of schedule files: [external directory]/CancerApp/scheduletext/[file].txt -->
+    <external-path path="CancerApp/" name="ScheduleText" />
+</paths>

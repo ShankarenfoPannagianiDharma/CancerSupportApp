@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    //theme for basic view containers
+    <style name="BasicTheme">
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:background">#add8e6</item>
+    </style>
+
+    //theme for main bar
+    <style name="MainBar" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">28dp</item>
+        <item name="android:color">#57dee9</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+Guide for actionbar
+https://github.com/codepath/android_guides/wiki/Defining-The-ActionBar#adding-action-items
+
+Guide for navigation drawer
+https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer
+
+Guide for database
+http://blog.reigndesign.com/blog/using-your-own-sqlite-database-in-android-applications
+
+-UI navigation switches fragments, not activities.
+
+The UI uses fragments to switch easily without changing activities- thus components of the activity
+is being switched, not the activity itself. From my understanding, this would produce less workload.
+->Patient activity holds fragment container as its main view. Navigation is handled via sidebar navigation
+panel, which is part of the activity. It controls the fragments active on the container.
+->Staff activity holds an initially invisible fragment container and mainmenu container. Buttons switch
+these two to visible and gone to allow seamless switching. NEED TO BE EVALUATED- GOOD NON?
+
+
+Database for the app uses SQLite, more familiarity required.
+The database is currently located in the android's /assets folder, may have to move later.
+Structure of the tables is roughly:
+                    Accounts (all accounts for login purposes)
+                     ___________________|___________________________________
+                    |                                                       |
+     Patients (credentials of patients)--------M-1-----------Specialists (credentials of doctors)
+
+Guide for calendar
+https://developer.android.com/guide/topics/providers/calendar-provider.html
+
+The patient's listview gets data from a local file called eventlist.txt, from an internal storage.
+The eventlist.txt structure is: event,time in one line = "event,15:30"
+The staff creates events through fragment_staff_patients listview.
+    -specialist clicks on a patient, press the add event or add routine button
+    -specialist puts in event/routine data, confirms
+    -phone sends data packet to patient
+    -patient's phone writes the event to the eventlist.txt
+{Updates?}
+The event list reads from the file whenever the fragment is created
+
+Files are to be shared on personal basis. Guide below. Uses FileProvider.
+https://developer.android.com/training/secure-file-sharing/setup-sharing.html#DefineMetaData
+https://developer.android.com/training/secure-file-sharing/share-file.html

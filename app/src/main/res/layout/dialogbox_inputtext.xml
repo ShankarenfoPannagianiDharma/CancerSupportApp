@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the dialog box  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#afaeae"
+    android:padding="10dp">
+
+
+    <TextView
+        android:text="Enter your Message:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textSize="22dp"
+        android:paddingBottom="12dp"
+        android:scrollHorizontally="false"
+        android:maxLines="100"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:inputType="text"
+        android:background="#ffffff"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/txt_input" />
+
+</LinearLayout>

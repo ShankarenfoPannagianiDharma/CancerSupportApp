@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a collection of items to place in the menu of the navigation drawer. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HOME"
+            android:title="Home"
+            android:icon="@drawable/ic_nav_home"/>
+        <item
+            android:id="@+id/nav_SPECIALIST"
+            android:title="Your Specialist"
+            android:icon="@drawable/ic_nav_specialist"/>
+        <item
+            android:id="@+id/nav_STATUS"
+            android:title="Your Status"
+            android:icon="@drawable/ic_nav_status"/>
+        <item
+            android:id="@+id/nav_LOGOUT"
+            android:title="Log Out"
+            android:icon="@drawable/ic_nav_quit"/>
+    </group>
+
+</menu>

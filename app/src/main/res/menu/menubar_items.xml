@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the xml for the items/icons that show on top of the menubar -->
+<!-- This requires to have the showDrawer(MenuItem mi) function in the java page to incorporate -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mbic_navpatientmenu"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="Navigation Menu"
+        app:showAsAction="ifRoom"
+        android:onClick="showDrawer">
+    </item>
+</menu>
